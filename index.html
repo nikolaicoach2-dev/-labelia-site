@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labelia Moda</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#ffffff;
+color:#222;
+}
+
+header{
+background:#5E2CA5;
+padding:20px;
+text-align:center;
+color:white;
+}
+
+header h1{
+font-size:34px;
+}
+
+header p{
+margin-top:8px;
+}
+
+.banner{
+height:300px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:linear-gradient(135deg,#6D28D9,#8B5CF6);
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.banner h2{
+font-size:34px;
+margin-bottom:15px;
+}
+
+.banner button{
+padding:15px 35px;
+border:none;
+border-radius:40px;
+background:white;
+color:#5E2CA5;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+section{
+padding:30px;
+}
+
+h3{
+text-align:center;
+margin-bottom:20px;
+font-size:28px;
+}
+
+.produtos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+padding:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+}
+
+.card h4{
+margin-top:15px;
+}
+
+.preco{
+font-size:22px;
+color:#5E2CA5;
+font-weight:bold;
+margin:10px 0;
+}
+
+.botao{
+display:block;
+width:100%;
+padding:12px;
+border:none;
+border-radius:12px;
+background:#5E2CA5;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+footer{
+margin-top:40px;
+padding:30px;
+text-align:center;
+background:#111;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>LABELIA</h1>
+
+<p>Moda Feminina</p>
+
+</header>
+
+<div class="banner">
+
+<h2>Nova Coleção</h2>
+
+<p>Elegância que veste sua essência.</p>
+
+<br>
+
+<button>Comprar Agora</button>
+
+</div>
+
+<section>
+
+<h3>Destaques</h3>
+
+<div class="produtos">
+
+<div class="card">
+
+<img src="https://picsum.photos/300/400?1">
+
+<h4>Vestido Elegance</h4>
+
+<div class="preco">R$149,90</div>
+
+<button class="botao">
+Adicionar ao Carrinho
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="https://picsum.photos/300/400?2">
+
+<h4>Conjunto Premium</h4>
+
+<div class="preco">R$189,90</div>
+
+<button class="botao">
+Adicionar ao Carrinho
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Labelia Moda
+
+</footer>
+
+</body>
+</html>
